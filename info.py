@@ -105,14 +105,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HowToDownloadeMovies")   # 
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HowToDownloadeMovies")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "fc2e0e9d467575e658817e4e27118ec57c048e46") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "teraboxlinks.com") # Shortener website
+SHORTENER_API = environ.get("SHORTENER_API", "akashdeveloper") # Shortener API key
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "urlbotsot.vercel.app") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "fc2e0e9d467575e658817e4e27118ec57c048e46")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "teraboxlinks.com") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "akashdeveloper")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "urlbotsot.vercel.app") # Shortener website for second website
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "fc2e0e9d467575e658817e4e27118ec57c048e46")  
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "teraboxlinks.com") # Shortener website for third website
+SHORTENER_API3 = environ.get("SHORTENER_API3", "akashdeveloper")  
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "urlbotsot.vercel.app") # Shortener website for third website
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
